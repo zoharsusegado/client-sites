@@ -184,27 +184,22 @@ img, svg { display: block; max-width: 100%; }
 
 /* ---------- Signature divider ---------- */
 .divider {
-  padding: 1.5rem 24px 2.5rem;
+  padding: 2.5rem 24px 3.5rem;
 }
 .divider-inner {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-}
-.divider-line {
-  flex: 1;
-  height: 1px;
-  background: var(--border);
+  justify-content: center;
 }
 .divider-mark {
-  width: 190px;
+  width: 260px;
   height: auto;
   flex-shrink: 0;
 }
 #reel-blades {
-  transform-origin: 130px 92px;
+  transform-origin: 152px 104px;
   transform: rotate(-50deg);
 }
 .divider.is-visible #reel-blades {
@@ -456,7 +451,7 @@ img, svg { display: block; max-width: 100%; }
 @media (max-width: 860px) {
   .main-nav { display: none; }
   .service-row--offset { margin-left: 0; }
-  .divider-mark { width: 150px; }
+  .divider-mark { width: 210px; }
   .trust-signals { grid-template-columns: 1fr; gap: 1.75rem; }
   .trust-signals li { border-left: none; padding: 0; }
 }
@@ -471,8 +466,7 @@ img, svg { display: block; max-width: 100%; }
   .trust { padding: 4rem 20px; }
   .contact-card { padding: 2.5rem 1.75rem; }
   .contact { padding: 1rem 16px 5rem; }
-  .divider-mark { width: 120px; }
-  .divider-inner { gap: 0.8rem; }
+  .divider-mark { width: 170px; }
   .footer-inner { justify-content: center; text-align: center; }
 }
 
