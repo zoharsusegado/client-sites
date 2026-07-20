@@ -125,13 +125,10 @@ img, svg { display: block; max-width: 100%; }
 .brand { display: flex; align-items: center; }
 .brand-badge {
   display: block;
-  background: var(--off-white);
-  border-radius: 8px;
-  padding: 5px 10px;
   line-height: 0;
 }
 .brand-badge img {
-  height: 64px;
+  height: 58px;
   width: auto;
   display: block;
 }
@@ -406,12 +403,8 @@ img, svg { display: block; max-width: 100%; }
   align-items: center;
   gap: 0.9rem;
 }
-.brand-badge--footer {
-  background: var(--white);
-  border: 1px solid var(--border);
-}
 .brand-badge--footer img {
-  height: 52px;
+  height: 48px;
 }
 
 /* ---------- Floating call button (mobile) ---------- */
